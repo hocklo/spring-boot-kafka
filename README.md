@@ -1,6 +1,6 @@
-#Spring boot kafka PoC
+# Spring boot kafka PoC
 
-##Requirements
+## Requirements
 1. Download https://www.apache.org/dyn/closer.cgi?path=/kafka/1.0.0/kafka_2.11-1.0.0.tgz
 ```
 > tar -xzf kafka_2.11-1.0.0.tgz
@@ -15,8 +15,8 @@
 > bin/kafka-server-start.sh config/server.properties
 ```
 
-##Endpoints
+## Endpoints
 * /api/produces?message=<Your message>
   * Send one message to Kafka topic 
 * /api/consumes
-  * Read all messages received and clean the in-memory storage.
+  * Read all messages received and clean the in-memory storage. 
